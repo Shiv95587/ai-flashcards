@@ -3,7 +3,7 @@ import { getDatabase } from "firebase/database";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDJGnaMLAvj_kJq-U0MwvLCUvQQr_GxybU",
+  apiKey: process.env.FIREBASE_API_KEY,
   authDomain: "flashcards-6d489.firebaseapp.com",
   databaseURL: "https://flashcards-6d489-default-rtdb.firebaseio.com",
   projectId: "flashcards-6d489",

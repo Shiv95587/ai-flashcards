@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { Button, IconButton, Tooltip } from "@mui/material";
 import { useRouter } from "next/navigation";
-import SendIcon from "@mui/icons-material/Send";
+// import SendIcon from "@mui/icons-material/Send";
 import { useAuth, UserButton } from "@clerk/nextjs";
 import { customAppearance } from "./styles/customAppearance.js";
 import Hero from "@/sections/Hero.jsx";
