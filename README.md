@@ -19,18 +19,9 @@ Welcome to the Flashcards Web App! This application is designed to help users in
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Payments:** [Stripe](https://stripe.com/)
 
-## Setup and Installation
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-- Node.js (>=14.x.x)
-- npm or yarn
-
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/flashcards-web-app.git
-cd flashcards-web-app
+git clone https://github.com/Shiv95587/ai-flashcards.git
+cd ai-flashcards
 ```
