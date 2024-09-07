@@ -22,6 +22,6 @@ Welcome to the Flashcards Web App! This application is designed to help users in
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/flashcards-web-app.git
-cd flashcards-web-app
+git clone https://github.com/Shiv95587/ai-flashcards.git
+cd ai-flashcards
 ```
