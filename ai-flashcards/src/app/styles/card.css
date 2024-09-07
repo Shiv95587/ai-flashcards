@@ -1,0 +1,9 @@
+.cardOpen {
+  transform: scale(1.05) rotateX(0deg);
+  transition: transform 0.3s ease;
+}
+
+.cardClose {
+  transform: scale(0.95) rotateX(90deg);
+  transition: transform 0.3s ease;
+}

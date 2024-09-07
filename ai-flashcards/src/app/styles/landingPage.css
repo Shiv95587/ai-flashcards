@@ -1,0 +1,75 @@
+/* Hero Section Background */
+.hero-bg {
+  background-color: #2980b9; /* Primary Blue Color */
+  color: #f9fafb; /* Light Text Color */
+}
+
+/* CTA Button Styling */
+.cta-button {
+  background-color: #5dade2; /* Light Blue Color */
+  color: #f9fafb;
+  transition: background-color 0.3s ease, transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.cta-button:hover {
+  background-color: #4a90e2; /* Darker Blue */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Hero Section Title Animation */
+.hero-title {
+  animation: slideIn 1s ease-out;
+}
+@keyframes slideIn {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Paragraph Animation and Hover Effects */
+.hero-paragraph {
+  animation: fadeIn 1.5s ease-out;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero-paragraph:hover {
+  color: #f9fafb; /* Light Color for better contrast */
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Pricing Card Styles */
+.pricing-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Styles */
+.footer-bg {
+  background: #2980b9;
+}
+.footer-link {
+  color: #f9fafb;
+  transition: color 0.3s ease;
+}
+.footer-link:hover {
+  color: #d0d3d4;
+}
