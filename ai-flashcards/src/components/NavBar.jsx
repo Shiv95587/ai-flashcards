@@ -24,7 +24,7 @@ export default function NavBar() {
   return (
     isSignedIn && (
       <div className="bg-gray-100">
-        <nav className="container w-full flex flex-row bg-gray-100 py-4 relative mx-auto">
+        <nav className="container w-full flex flex-row bg-gray-100 py-4 relative mx-auto h-12">
           <ul className="flex flex-row justify-center items-center gap-8 flex-grow max-sm:gap-2">
             <NavItem href={"/"} activePage={activePage} name={"Home"} />
             <NavItem href={"/main"} activePage={activePage} name={"Main"} />

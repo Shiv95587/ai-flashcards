@@ -11,6 +11,8 @@ import {
   SignedOut,
   UserButton,
 } from "@clerk/nextjs";
+// "@babel/preset-env": "^7.25.4",
+//     "@babel/preset-react": "^7.24.7",
 import "./globals.css";
 import Link from "next/link";
 import { customAppearance } from "./styles/customAppearance";

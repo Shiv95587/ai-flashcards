@@ -6,16 +6,16 @@ export default function Footer() {
           &copy; 2024 Your Company Name. All rights reserved.
         </p>
         <div className="flex flex-wrap justify-center gap-6 mb-4">
-          <a href="#" className="footer-link hover:text-white">
+          <a href="#" className="footer-link hover:text-gray-300">
             About Us
           </a>
-          <a href="#" className="footer-link hover:text-white">
+          <a href="#" className="footer-link hover:text-gray-300">
             Privacy Policy
           </a>
-          <a href="#" className="footer-link hover:text-white">
+          <a href="#" className="footer-link hover:text-gray-300">
             Terms of Service
           </a>
-          <a href="#" className="footer-link hover:text-white">
+          <a href="#" className="footer-link hover:text-gray-300">
             Contact Us
           </a>
         </div>
